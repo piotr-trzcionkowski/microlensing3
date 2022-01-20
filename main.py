@@ -105,7 +105,7 @@ else:
   err = np.array(gaiamagerr)
 
   
-### 4th part:  plotting datapoints
+### plotting datapoints
 
 plt.scatter(t,mag,color='k',alpha=.9,s=3)
 plt.errorbar(t,mag,yerr=err, ls='none', ecolor='k')
@@ -115,7 +115,7 @@ plt.show()
 
 
 
-### 5th part: fitting and ploting fitted curve over input data
+### 4th part: fitting and ploting fitted curve over input data
 
 maxmag = mag.min()
 index = mag.argmin()
